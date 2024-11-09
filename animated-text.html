@@ -1,0 +1,29 @@
+<html>
+<head>
+    <style>
+        .slide-text {
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            opacity: 0;
+            transform: translateX(-100%);
+            animation: slideIn 1s ease-out forwards;
+            animation-delay: 0.5s;
+        }
+
+        @keyframes slideIn {
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-text">
+        <h2>Our Services</h2>
+        <p>Providing top-notch solutions to meet your needs, including...</p>
+    </div>
+</body>
+</html>
